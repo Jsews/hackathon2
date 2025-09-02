@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FoodLink AI — App</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="https://js.paystack.co/v1/inline.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="logo">🥗</span><h1>FoodLink <span class="ai">AI</span></h1>
+    </div>
+    <nav>
+      <button id="newListingBtn" class="btn primary">+ List Surplus</button>
+      <a class="btn ghost" id="logoutBtn" href="javascript:void(0)">Logout</a>
+    </nav>
+  </header>
+
+  <main class="grid two-column">
+    <section>
+      <h2>Nearby Surplus</h2>
+      <div id="items" class="cards"></div>
+      
+    </section>
+
+    <aside>
+      <div class="card glass">
+        <h3>Nutrition Micro-Lesson</h3>
+        <div id="lesson">Loading...</div>
+      </div>
+
+      <div class="card glass">
+        <h3>Impact (this week)</h3>
+        <canvas id="impactChart" width="300" height="200"></canvas>
+        <div class="impact-stats" style="display:flex;gap:18px;margin-top:10px">
+          <div><strong id="mealsCount">0</strong><span>meals saved</span></div>
+          <div><strong id="revenueCount">TZS 0</strong><span>revenue</span></div>
+        </div>
+      </div>
+
+      <div class="card glass">
+        <h3>AI Match (demo)</h3>
+        <p class="muted tiny">We prioritize distance, freshness, dietary tags.</p>
+        <button class="btn ghost" id="simulateAI">Show top match</button>
+        <div id="aiResult" style="margin-top:10px"></div>
+      </div>
+    </aside>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true" style="display: none;">
+    <div class="modal-panel card glass">
+      <button id="closeModal" class="close">✕</button>
+      <h3>New Surplus Listing</h3>
+      <form id="listingForm">
+        <label>Title <input id="title" required /></label>
+        <label>Description <textarea id="description"></textarea></label>
+        <label>Category <input id="category" placeholder="e.g., cooked, bakery" /></label>
+        <label>Portions <input id="portions" type="number" min="1" value="1" /></label>
+        <label>Price (TZS) <input id="price" type="number" min="0" value="0" /></label>
+        <label>Photo URL <input id="photo" placeholder="https://..." /></label>
+        <label>Pickup start <input id="pickupStart" type="datetime-local" /></label>
+        <label>Pickup end <input id="pickupEnd" type="datetime-local" /></label>
+        <div class="row">
+          <button type="submit" class="btn primary">Publish</button>
+          <button type="button" id="cancelBtn" class="btn ghost">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+  </script>
+
+</body>
+</html>
