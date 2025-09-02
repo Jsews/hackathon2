@@ -33,8 +33,8 @@ hackathon2 vibe coding
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/foodlink-ai.git
-cd foodlink-ai
+git clone https://github.com/Jsews/hackathon2.
+cd hackathon2
 ________________________________________
 2. Frontend Setup (Demo Mode)
 1.	Open frontend/index.html in VS Code Live Server or any static server.
