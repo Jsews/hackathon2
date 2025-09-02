@@ -72,15 +72,14 @@ Option 2: Heroku (for backend)
 4.	Deploy with GitHub integration or git push heroku main.
 ________________________________________
 5. GitHub Repository
-GitHub Repo
-https://github.com/Jsews/hackathon2.git
+GitHub Repo = "https://github.com/Jsews/hackathon2.git"
 ________________________________________
 6. Deployment Link
 Live Demo Link
 (Replace with your actual deployed URL)
 ________________________________________
 7. Pitch Deck
-https://www.canva.com/design/DAGxt0-C9SU/npNLexSIkpwGqCljCNeFqQ/edit?utm_content=DAGxt0-C9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Link = "https://www.canva.com/design/DAGxt0-C9SU/npNLexSIkpwGqCljCNeFqQ/edit?utm_content=DAGxt0-C9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 ________________________________________________________________________________
 9. File Structure
 foodlink-ai/
