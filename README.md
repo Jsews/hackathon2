@@ -1,6 +1,12 @@
 # hackathon2
 hackathon2 vibe coding
 # FoodLink AI 🌱🥗
+![WhatsApp Image 2025-09-02 at 13 12 51_da60bace](https://github.com/user-attachments/assets/07d43e09-22d8-4058-a2a1-68402b27a051)
+![WhatsApp Image 2025-09-02 at 13 12 51_e3b7cf07](https://github.com/user-attachments/assets/a039223a-8512-4d40-86f0-d19cd6c08eb2)
+![WhatsApp Image 2025-09-02 at 13 12 52_46c75abb](https://github.com/user-attachments/assets/ecfa455c-20bb-46ff-845f-327843867c4e)
+![WhatsApp Image 2025-09-02 at 13 12 52_7608ee71](https://github.com/user-attachments/assets/81fea621-d1f9-46e0-8cbc-d5d141601707)
+![WhatsApp Image 2025-09-02 at 13 12 53_22114903](https://github.com/user-attachments/assets/8d5032ec-8f13-4abc-aa71-b63fcf9525e5)
+![WhatsApp Image 2025-09-02 at 13 12 53_bf30ea8d](https://github.com/user-attachments/assets/21a47f3b-98b7-4566-8da3-a4220b04cb7d)
 
 **FoodLink AI** is a hackathon project focused on **reducing food waste** by connecting surplus food providers (restaurants, bakeries, grocery stores) with communities, NGOs, and buyers using **AI-powered matching**. The platform works as a **web and mobile PWA**, includes real-time dashboards, micro-lessons, and optional monetization via **Paystack**.
 
