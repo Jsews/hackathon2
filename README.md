@@ -1,12 +1,12 @@
 # hackathon2
 hackathon2 vibe coding
 # FoodLink AI 🌱🥗
-![WhatsApp Image 2025-09-02 at 13 12 51_da60bace](https://github.com/user-attachments/assets/07d43e09-22d8-4058-a2a1-68402b27a051)
-![WhatsApp Image 2025-09-02 at 13 12 51_e3b7cf07](https://github.com/user-attachments/assets/a039223a-8512-4d40-86f0-d19cd6c08eb2)
-![WhatsApp Image 2025-09-02 at 13 12 52_46c75abb](https://github.com/user-attachments/assets/ecfa455c-20bb-46ff-845f-327843867c4e)
-![WhatsApp Image 2025-09-02 at 13 12 52_7608ee71](https://github.com/user-attachments/assets/81fea621-d1f9-46e0-8cbc-d5d141601707)
-![WhatsApp Image 2025-09-02 at 13 12 53_22114903](https://github.com/user-attachments/assets/8d5032ec-8f13-4abc-aa71-b63fcf9525e5)
-![WhatsApp Image 2025-09-02 at 13 12 53_bf30ea8d](https://github.com/user-attachments/assets/21a47f3b-98b7-4566-8da3-a4220b04cb7d)
+![WhatsApp Image 2025-09-02 at 13 27 40_bf828de9](https://github.com/user-attachments/assets/a8e3b33b-e6b5-4817-86e0-05394c9d7a26)
+![WhatsApp Image 2025-09-02 at 13 27 39_d84640fe](https://github.com/user-attachments/assets/71c3b89e-8aa0-495b-9a3a-f80057cf6484)
+![WhatsApp Image 2025-09-02 at 13 27 39_af309c20](https://github.com/user-attachments/assets/c3377e59-072f-43e0-9bdd-18ea166ce761)
+![WhatsApp Image 2025-09-02 at 13 27 39_df2499c5](https://github.com/user-attachments/assets/63367a14-4706-46b0-b977-9769b4eb83d4)
+![WhatsApp Image 2025-09-02 at 13 27 38_58163a3a](https://github.com/user-attachments/assets/b98da68c-0adf-4cc8-8642-cbc6a4d0e5f7)
+
 
 **FoodLink AI** is a hackathon project focused on **reducing food waste** by connecting surplus food providers (restaurants, bakeries, grocery stores) with communities, NGOs, and buyers using **AI-powered matching**. The platform works as a **web and mobile PWA**, includes real-time dashboards, micro-lessons, and optional monetization via **Paystack**.
 
