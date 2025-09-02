@@ -1,0 +1,20 @@
+{
+  "name": "FoodLink AI",
+  "short_name": "FoodLink",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#071029",
+  "theme_color": "#071029",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=192&auto=format&fit=crop",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=512&auto=format&fit=crop",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
