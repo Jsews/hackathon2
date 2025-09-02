@@ -33,7 +33,7 @@ hackathon2 vibe coding
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Jsews/hackathon2.
+git clone "https://github.com/Jsews/hackathon2."
 cd hackathon2
 ________________________________________
 2. Frontend Setup (Demo Mode)
