@@ -75,7 +75,7 @@ ________________________________________
 GitHub Repo = "https://github.com/Jsews/hackathon2.git"
 ________________________________________
 6. Deployment Link
-Live Demo Link = "https://candid-platypus-d3c5b1.netlify.app/"
+Live Demo Link = "https://foodlinkai.netlify.app/"
 ________________________________________
 7. Pitch Deck
 Link = "https://www.canva.com/design/DAGxt0-C9SU/npNLexSIkpwGqCljCNeFqQ/edit?utm_content=DAGxt0-C9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
