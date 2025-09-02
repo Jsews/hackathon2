@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FoodLink AI — Stop Food Waste</title>
+  <meta name="theme-color" content="#071029" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="logo">🥗</span>
+      <h1>FoodLink <span class="ai">AI</span></h1>
+    </div>
+    <nav>
+      <a class="btn ghost" href="/login.html">Login</a>
+      <a class="btn primary" href="/insight.html">Open App</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-left card glass">
+      <h2>No food wasted. Every meal counts.</h2>
+      <p class="lead">FoodLink AI connects surplus food providers with communities and NGOs. Smart matching, safe pickup, and easy payments.</p>
+
+      <div class="cta-row">
+        <a class="btn primary large" href="/insight.html">Try demo</a>
+        <a class="btn ghost" href="#how">How it works</a>
+      </div>
+
+      <div class="metrics">
+        <div><strong id="mealsSaved">1,240</strong><span>meals saved</span></div>
+        <div><strong id="partners">14</strong><span>partners</span></div>
+        <div><strong id="csr">7</strong><span>CSR sponsors</span></div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="phone-mock card glass">
+        <img src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?q=80&w=800&auto=format&fit=crop" alt="app mock" />
+      </div>
+    </div>
+  </main>
+
+  <section id="how" class="steps">
+    <h3>How it works</h3>
+    <div class="step-grid">
+      <div class="step card">
+        <h4>1. List surplus</h4>
+        <p>Snap, describe, set pickup window — list in 30 seconds.</p>
+      </div>
+      <div class="step card">
+        <h4>2. AI match</h4>
+        <p>Match score by distance, freshness, and dietary needs.</p>
+      </div>
+      <div class="step card">
+        <h4>3. Reserve & pickup</h4>
+        <p>Reserve, pay (Paystack), and pick up securely with QR.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <small>Built for the Zero Hunger hackathon • FoodLink AI • Demo</small>
+  </footer>
+
+  <script src="/script.js" defer></script>
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+  </script>
+</body>
+</html>
