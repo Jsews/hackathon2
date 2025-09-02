@@ -24,7 +24,7 @@ hackathon2 vibe coding
 **Backend:** Python (FastAPI), MySQL  
 **PWA:** Service Worker, manifest.webmanifest  
 **AI & Low-code Tools:** Cursor AI, MetaGPT X, Superbase, Lovable Dev  
-**Payments:** IntaSend  
+**Payments:** Paystack  
 **Deployment:** Vercel, Heroku (optional)  
 
 ---
