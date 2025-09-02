@@ -25,7 +25,7 @@ hackathon2 vibe coding
 **PWA:** Service Worker, manifest.webmanifest  
 **AI & Low-code Tools:** Cursor AI, MetaGPT X, Superbase, Lovable Dev  
 **Payments:** Paystack  
-**Deployment:** Vercel, Heroku (optional)  
+**Deployment:** Netlify,Heroku (optional)  
 
 ---
 
@@ -65,18 +65,17 @@ Option 1: Vercel
 1.	Push repo to GitHub.
 2.	Connect Vercel and deploy the frontend/ folder.
 3.	Enable static site deployment and PWA support.
-Option 2: Heroku (for backend)
+Option 2: Netlify (for backend)
 1.	Push backend folder to GitHub.
 2.	Create a new Heroku app.
 3.	Add environment variables via dashboard or CLI.
-4.	Deploy with GitHub integration or git push heroku main.
+4.	Deploy with GitHub integration or git push netlify main.
 ________________________________________
 5. GitHub Repository
 GitHub Repo = "https://github.com/Jsews/hackathon2.git"
 ________________________________________
 6. Deployment Link
-Live Demo Link
-(Replace with your actual deployed URL)
+Live Demo Link = "https://candid-platypus-d3c5b1.netlify.app/"
 ________________________________________
 7. Pitch Deck
 Link = "https://www.canva.com/design/DAGxt0-C9SU/npNLexSIkpwGqCljCNeFqQ/edit?utm_content=DAGxt0-C9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
